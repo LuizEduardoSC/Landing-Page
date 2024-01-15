@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="./assets/favicon.svg" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./styles/styles.css">
+
+    <title>Home</title>
+</head>
+
+<body>
+    <header id="menu" class="menu_container flex">
+        <div class="menu_content">
+            <a href="#">Landig Page</a>
+
+            <nav>
+                <ul class="menu_lista flex">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#contato">Contate Me</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="home_container">
+            <article id="home-texto" class="home_content">
+                <h4>Bem Vindo a minha página</h4>
+                <h1>Aqui você vai encontrar os meus projetos e o meu portfólio</h1>
+                    <p>
+                    Olá! Sou Luiz Eduardo, um desenvolvedor em formação. Estou cursando Análise e Desenvolvimento de Sistemas e participando do Bootcamp da Generation Brasil de Desenvolvedor Full Stack Java. Nesse bootcamp, estou aprendendo várias tecnologias e ferramentas, como HTML, CSS, JavaScript, TypeScript, Spring, React, Node.Js, MySQL e Git, além de desenvolver soft skills essenciais para o mercado de trabalho.
+                    </p>
+
+                    <p>
+                    Se você quiser conhecer mais sobre o meu trabalho, visite o meu portfólio no GitHub ou o meu blog pessoal. Fique à vontade para entrar em contato comigo pelo LinkedIn ou pelo e-mail. Vamos conversar!
+                    </p>
+
+                <a class="btn" target="_blank" href="https://github.com/LuizEduardoSC">Explore</a>
+            </article>
+
+            <article id="home-imagem" class="home_content">
+                <img class="home_content_img" src="assets/Code typing-bro.svg" alt="Capacete de Astronauta Animado">
+            </article>
+        </section>
+
+        <section id="sobre" class="sobre_container">
+            <img src="https://avatars.githubusercontent.com/u/136404651?s=400&u=571404bd90982d1e573465a9035876cf34e04a7d&v=4"
+                alt="Foto do Perfil do Github - >Luiz Eduardo">
+
+            <article id="sobre-texto">
+                <h1>Quem sou eu?</h1>
+                <p>
+                    Estou em busca de oportunidades para colocar em prática os meus conhecimentos e colaborar em projetos desafiadores e inovadores. Se você quiser conhecer mais sobre o meu trabalho, visite o meu portfólio no GitHub ou o meu blog pessoal. Fique à vontade para entrar em contato comigo pelo LinkedIn ou pelo e-mail. Vamos conversar!
+                </p>
+
+                <div id="sobre-github" class="sobre_github flex">
+                    <a class="btn" href="https://github.com/LuizEduardoSC">Github</a>
+                    <p>24 Seguidores</p>
+                    <p>22 Repositórios</p>
+                </div>
+
+            </article>
+        </section>
+
+        <section id="contato" class="contato_container">
+            <article id="contato-texto" class="contato_content">
+                <h4>Me Contate</h4>
+                <p>
+                    Visite o meu portfólio no GitHub ou o meu Instagram. Fique à vontade para entrar em contato comigo pelo LinkedIn ou pelo e-mail. Vamos conversar!
+                </p>
+
+                <div id="redes-sociais" class="social_container flex">
+                    <a href="https://www.linkedin.com/in/luiz-eduardosc/">
+                        <img class="social_icon" src="https://img.icons8.com/ios/500/linkedin.png"
+                            alt="Logo do LinkedIn" />
+                    </a>
+                    <a href="https://github.com/LuizEduardoSC">
+                        <img class="social_icon" src="https://img.icons8.com/ios/500/github--v1.png"
+                            alt="Logo do Github" />
+                    </a>
+                    <a href="">
+                        <img class="social_icon" src="https://img.icons8.com/ios/500/instagram-new--v1.png"
+                            alt="Logo do Instagram" />
+                    </a>
+                </div>
+            </article>
+
+            <form action="" method="POST">
+                <input type="hidden" name="_next" value="">
+                <input type="hidden" name="_captcha" value="false">
+
+                <label for="nome"><strong>Nome: </strong></label>
+                <input id="nome" type="text" name="name" placeholder="Digite seu nome" required>
+
+                <label for="email"><strong>Email: </strong></label>
+                <input id="email" type="email" name="email" placeholder="Digite seu email" required>
+
+                <label for="subject"><strong>Assunto: </strong></label>
+                <input id="subject" type="text" name="subject" placeholder="Digite o título da mensagem" required>
+
+                <label for="message"><strong>Mensagem: </strong></label>
+                <textarea id="message" name="message" placeholder="Digite sua mensagem" required></textarea>
+
+                <button class="btn" type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="flex">
+        Feito por Luiz Eduardo - 2024
+    </footer>
+</body>
+
+</html>
